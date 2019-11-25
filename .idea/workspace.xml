@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c616eb91-87ba-479c-b66a-e6652e03f75a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\APP\apache-maven-3.6.0\Repository" />
+        <option name="mavenHome" value="C:/APP/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="C:\APP\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TsJbo3mSEMH2DRb08HkX8xsiTZ" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.StudentTest.testCreate">
+    <configuration name="CourseSessionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AgileJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenfeng.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chenfeng.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.chenfeng.entity.CourseSessionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseSessionTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AgileJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenfeng.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chenfeng.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.chenfeng.entity.CourseSessionTest" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseSessionTest.testEnrollStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AgileJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenfeng.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chenfeng.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.chenfeng.entity.CourseSessionTest" />
+      <option name="METHOD_NAME" value="testEnrollStudents" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AgileJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenfeng.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chenfeng.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.chenfeng.entity.StudentTest" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseSessionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AgileJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenfeng.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chenfeng.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.chenfeng.entity.CourseSessionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentTest.testCreate" />
+        <item itemvalue="TestNG.CourseSessionTest" />
+        <item itemvalue="JUnit.CourseSessionTest" />
+        <item itemvalue="JUnit.CourseSessionTest.testCreate" />
+        <item itemvalue="JUnit.CourseSessionTest.testEnrollStudents" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c616eb91-87ba-479c-b66a-e6652e03f75a" name="Default Changelist" comment="" />
+      <created>1574242943629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574242943629</updated>
+      <workItem from="1574242945366" duration="9672000" />
+      <workItem from="1574656279224" duration="57000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
