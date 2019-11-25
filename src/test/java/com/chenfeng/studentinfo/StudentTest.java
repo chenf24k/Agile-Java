@@ -1,11 +1,11 @@
-package com.chenfeng.entity;
-
-import org.junit.Assert;
-import org.junit.Test;
+package com.chenfeng.studentinfo;
 
 
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+@Test
 public class StudentTest {
-    @Test
     public void testCreate() {
         final String firstStudentName = "Jane Doe";
         final Student firstStudent = new Student(firstStudentName);

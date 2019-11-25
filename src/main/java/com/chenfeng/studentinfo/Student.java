@@ -1,4 +1,4 @@
-package com.chenfeng.entity;
+package com.chenfeng.studentinfo;
 
 
 public class Student {

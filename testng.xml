@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Suite" parallel="false" preserve-order="true"> -->
+<suite name="Suite" parallel="false">
+
+    <test name="com.chenfeng.studentinfo">
+        <classes>
+            <class name="com.chenfeng.studentinfo.StudentTest"></class>
+            <class name="com.chenfeng.studentinfo.CourseSessionTest"></class>
+            <class name="com.chenfeng.studentinfo.RosterReporterTest"></class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

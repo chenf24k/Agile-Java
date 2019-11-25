@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c616eb91-87ba-479c-b66a-e6652e03f75a" name="Default Changelist" comment="" />
+    <list default="true" id="c616eb91-87ba-479c-b66a-e6652e03f75a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/RosterReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/CourseSessionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/DateUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/RosterReporterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenfeng/entity/CourseSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/CourseSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenfeng/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/chenfeng/entity/CourseSessionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/chenfeng/entity/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenfeng/entity/CourseSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenfeng/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chenfeng/entity/CourseSessionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chenfeng/entity/StudentTest.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +29,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,10 +51,28 @@
     </option>
   </component>
   <component name="ProjectId" id="1TsJbo3mSEMH2DRb08HkX8xsiTZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.chenfeng.studentinfo" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\陈枫\IdeaProjects\TDD\AgileJava" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,66 +86,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest.testCreate">
-    <configuration name="CourseSessionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/陈枫/IdeaProjects/TDD/AgileJava/testng.xml">
+    <configuration name="C:/Users/陈枫/IdeaProjects/TDD/AgileJava/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AgileJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chenfeng.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.chenfeng.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.chenfeng.entity.CourseSessionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseSessionTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AgileJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chenfeng.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.chenfeng.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.chenfeng.entity.CourseSessionTest" />
-      <option name="METHOD_NAME" value="testCreate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseSessionTest.testEnrollStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AgileJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chenfeng.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.chenfeng.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.chenfeng.entity.CourseSessionTest" />
-      <option name="METHOD_NAME" value="testEnrollStudents" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AgileJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chenfeng.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.chenfeng.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.chenfeng.entity.StudentTest" />
-      <option name="METHOD_NAME" value="testCreate" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,13 +101,66 @@
       <module name="AgileJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chenfeng.entity.*" />
+          <option name="PATTERN" value="com.chenfeng.studentinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.chenfeng.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.chenfeng.entity.CourseSessionTest" />
+      <option name="MAIN_CLASS_NAME" value="com.chenfeng.studentinfo.CourseSessionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseSessionTest.testRosterReport" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AgileJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenfeng.studentinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chenfeng.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.chenfeng.studentinfo.CourseSessionTest" />
+      <option name="METHOD_NAME" value="testRosterReport" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RosterReporterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AgileJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenfeng.studentinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chenfeng.studentinfo" />
+      <option name="MAIN_CLASS_NAME" value="com.chenfeng.studentinfo.RosterReporterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RosterReporterTest.testRosterReport" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AgileJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenfeng.studentinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chenfeng.studentinfo" />
+      <option name="MAIN_CLASS_NAME" value="com.chenfeng.studentinfo.RosterReporterTest" />
+      <option name="METHOD_NAME" value="testRosterReport" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -130,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentTest.testCreate" />
+        <item itemvalue="TestNG.C:/Users/陈枫/IdeaProjects/TDD/AgileJava/testng.xml" />
+        <item itemvalue="TestNG.RosterReporterTest" />
+        <item itemvalue="TestNG.RosterReporterTest.testRosterReport" />
         <item itemvalue="TestNG.CourseSessionTest" />
-        <item itemvalue="JUnit.CourseSessionTest" />
-        <item itemvalue="JUnit.CourseSessionTest.testCreate" />
-        <item itemvalue="JUnit.CourseSessionTest.testEnrollStudents" />
+        <item itemvalue="TestNG.CourseSessionTest.testRosterReport" />
       </list>
     </recent_temporary>
   </component>
@@ -150,10 +189,22 @@
       <updated>1574242943629</updated>
       <workItem from="1574242945366" duration="9672000" />
       <workItem from="1574656279224" duration="57000" />
+      <workItem from="1574657532574" duration="6399000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

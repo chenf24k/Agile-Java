@@ -1,26 +1,39 @@
-package com.chenfeng.entity;
+package com.chenfeng.studentinfo;
 
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
+import java.util.GregorianCalendar;
 
 @Test
 public class CourseSessionTest {
     private CourseSession session;
+    private Date startDate;
 
     @BeforeClass
     public void setUp() {
-        session = new CourseSession("ENGL", "101");
+        startDate = createDate(2003, 1, 6);
+        session = new CourseSession("ENGL", "101", startDate);
+    }
+
+    public Date createDate(int year, int month, int date) {
+        GregorianCalendar calendar = new GregorianCalendar();
+        calendar.clear();
+        calendar.set(Calendar.YEAR, year);
+        calendar.set(Calendar.MONTH, month - 1);
+        calendar.set(Calendar.DAY_OF_MONTH, date);
+        return calendar.getTime();
     }
 
     public void testCreate() {
-        Assert.assertEquals("ENGL", session.getDepartment());
-        Assert.assertEquals("101", session.getNumber());
-        Assert.assertEquals(0, session.getNumberOfStudents());
+        Assert.assertEquals(session.getDepartment(), "ENGL");
+        Assert.assertEquals(session.getNumber(), "101");
+        Assert.assertEquals(session.getNumberOfStudents(), 0);
+        Assert.assertEquals(session.getStartDate(), startDate);
     }
 
     public void testEnrollStudents() {
@@ -37,14 +50,7 @@ public class CourseSessionTest {
     }
 
     public void testCourseDates() {
-        int year = 103;
-        int month = 0;
-        int date = 6;
-        Date startDate = new Date(year, month, date);
-        CourseSession session = new CourseSession("ABCD", "200", startDate);
-        year = 103;
-        date = 3;
-        Date sixteenWeeksOut = new Date(year, month, date);
+        Date sixteenWeeksOut = createDate(2003, 4, 25);
         Assert.assertEquals(sixteenWeeksOut, session.getEndDate());
     }
 }
