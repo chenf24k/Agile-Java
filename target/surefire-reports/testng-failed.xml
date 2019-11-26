@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="com.chenfeng.studentinfo">
+    <classes>
+      <class name="com.chenfeng.studentinfo.StudentTest"/>
+      <class name="com.chenfeng.studentinfo.CourseSessionTest"/>
+      <class name="com.chenfeng.studentinfo.RosterReporterTest"/>
+      <class name="com.chenfeng.studentinfo.DateUtilTest"/>
+    </classes>
+  </test> <!-- com.chenfeng.studentinfo -->
+</suite> <!-- Failed suite [Suite] -->

@@ -16,17 +16,8 @@ public class CourseSessionTest {
 
     @BeforeClass
     public void setUp() {
-        startDate = createDate(2003, 1, 6);
+        startDate = new DateUtil().createDate(2003, 1, 6);
         session = new CourseSession("ENGL", "101", startDate);
-    }
-
-    public Date createDate(int year, int month, int date) {
-        GregorianCalendar calendar = new GregorianCalendar();
-        calendar.clear();
-        calendar.set(Calendar.YEAR, year);
-        calendar.set(Calendar.MONTH, month - 1);
-        calendar.set(Calendar.DAY_OF_MONTH, date);
-        return calendar.getTime();
     }
 
     public void testCreate() {
@@ -50,7 +41,7 @@ public class CourseSessionTest {
     }
 
     public void testCourseDates() {
-        Date sixteenWeeksOut = createDate(2003, 4, 25);
+        Date sixteenWeeksOut = new DateUtil().createDate(2003, 4, 25);
         Assert.assertEquals(sixteenWeeksOut, session.getEndDate());
     }
 }
