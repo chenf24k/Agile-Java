@@ -20,7 +20,7 @@ public class CourseSession {
     /**
      * 当前课程添加学生
      *
-     * @param student
+     * @param student 传入学生对象
      */
     public void enroll(Student student) {
         students.add(student);
@@ -29,7 +29,7 @@ public class CourseSession {
     /**
      * 根据index索引返回学生对象
      *
-     * @param index
+     * @param index 学生集合的索引
      * @return students.get(index)
      */
     public Student get(int index) {

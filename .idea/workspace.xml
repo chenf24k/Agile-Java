@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c616eb91-87ba-479c-b66a-e6652e03f75a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/RosterReporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/RosterReporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/CourseSessionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/CourseSessionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/DateUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/DateUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/CourseSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/CourseSession.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/RosterReporterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/RosterReporterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/CourseSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/CourseSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/RosterReporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/RosterReporter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/CourseSessionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/CourseSessionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/RosterReporterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/RosterReporterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/StudentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,8 +177,16 @@
       <workItem from="1574242945366" duration="9672000" />
       <workItem from="1574656279224" duration="57000" />
       <workItem from="1574657532574" duration="6399000" />
-      <workItem from="1574730855431" duration="1355000" />
+      <workItem from="1574730855431" duration="2332000" />
     </task>
+    <task id="LOCAL-00001" summary="重构学生输出信息的方法">
+      <created>1574732385050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574732385050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,5 +204,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="重构学生输出信息的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构学生输出信息的方法" />
   </component>
 </project>
