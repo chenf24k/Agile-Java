@@ -12,7 +12,7 @@ import static org.testng.Assert.*;
 @Test
 public class DateUtilTest {
     public void testCreateDate() {
-        Date date = new DateUtil().createDate(2000, 1, 1);
+        Date date = DateUtil.createDate(2000, 1, 1);
         Calendar calendar = new GregorianCalendar();
         calendar.setTime(date);
         Assert.assertEquals(calendar.get(Calendar.YEAR), 2000);

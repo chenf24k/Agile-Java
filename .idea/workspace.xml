@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c616eb91-87ba-479c-b66a-e6652e03f75a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/CourseSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/CourseSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/RosterReporterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/RosterReporterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/CourseSessionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/CourseSessionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/DateUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/DateUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/RosterReporterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/RosterReporterTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RosterReporterTest.testRosterReport">
+  <component name="RunManager" selected="TestNG.C:/Users/陈枫/IdeaProjects/TDD/AgileJava/testng.xml">
     <configuration name="C:/Users/陈枫/IdeaProjects/TDD/AgileJava/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AgileJava" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -84,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseSessionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DateUtilTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AgileJava" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +94,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chenfeng.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.chenfeng.studentinfo.CourseSessionTest" />
+      <option name="PACKAGE_NAME" value="com.chenfeng.studentinfo" />
+      <option name="MAIN_CLASS_NAME" value="com.chenfeng.studentinfo.DateUtilTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -156,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RosterReporterTest.testRosterReport" />
         <item itemvalue="TestNG.C:/Users/陈枫/IdeaProjects/TDD/AgileJava/testng.xml" />
+        <item itemvalue="TestNG.DateUtilTest" />
+        <item itemvalue="TestNG.RosterReporterTest.testRosterReport" />
         <item itemvalue="TestNG.DateUtilTest.testCreateDate" />
         <item itemvalue="TestNG.RosterReporterTest" />
-        <item itemvalue="TestNG.CourseSessionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +179,8 @@
       <workItem from="1574242945366" duration="9672000" />
       <workItem from="1574656279224" duration="57000" />
       <workItem from="1574657532574" duration="6399000" />
-      <workItem from="1574730855431" duration="2332000" />
+      <workItem from="1574730855431" duration="2691000" />
+      <workItem from="1574818057749" duration="219000" />
     </task>
     <task id="LOCAL-00001" summary="重构学生输出信息的方法">
       <created>1574732385050</created>
@@ -186,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574732385050</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="补充部分注释信息">
+      <created>1574765325909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574765325909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +217,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="重构学生输出信息的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构学生输出信息的方法" />
+    <MESSAGE value="补充部分注释信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充部分注释信息" />
   </component>
 </project>
