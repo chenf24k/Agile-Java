@@ -7,6 +7,7 @@ public class CourseSession {
     private String number;
     private List<Student> students = new ArrayList<Student>();
     private Date startDate;
+    private static int count;
 
     /**
      * 返回当前课程学生的数量
@@ -57,7 +58,35 @@ public class CourseSession {
         return startDate;
     }
 
-    public CourseSession(String department, String number, Date startDate) {
+    /**
+     * CourseSession类计数方法
+     */
+    public static void incrementCount() {
+        ++count;
+    }
+
+    public static int getCount() {
+        return count;
+    }
+
+    public static void resetCount() {
+        count = 0;
+    }
+
+    /**
+     * 工厂方法，用于生产CourseSession对象
+     *
+     * @param department 部门
+     * @param number     数量
+     * @param startDate  开始时间
+     * @return CourseSession对象
+     */
+    public static CourseSession create(String department, String number, Date startDate) {
+        CourseSession.incrementCount();
+        return new CourseSession(department, number, startDate);
+    }
+
+    private CourseSession(String department, String number, Date startDate) {
         this.department = department;
         this.number = number;
         this.startDate = startDate;
@@ -67,15 +96,9 @@ public class CourseSession {
         return department;
     }
 
-    public void setDepartment(String department) {
-        this.department = department;
-    }
 
     public String getNumber() {
         return number;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
-    }
 }

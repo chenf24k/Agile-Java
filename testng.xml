@@ -8,7 +8,7 @@
             <class name="com.chenfeng.studentinfo.StudentTest"/>
             <class name="com.chenfeng.studentinfo.CourseSessionTest"/>
             <class name="com.chenfeng.studentinfo.RosterReporterTest"/>
-            <class name="com.chenfeng.studentinfo.DateUtilTest"></class>
+            <class name="com.chenfeng.studentinfo.DateUtilTest"/>
         </classes>
     </test>
 </suite> <!-- Suite -->

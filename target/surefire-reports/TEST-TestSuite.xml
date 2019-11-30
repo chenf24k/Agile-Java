@@ -1,69 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.025" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.253" tests="6" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="sun.desktop" value="windows"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.class.path" value="C:\Users\陈枫\IdeaProjects\TDD\AgileJava\target\test-classes;C:\Users\陈枫\IdeaProjects\TDD\AgileJava\target\classes;C:\APP\apache-maven-3.6.0\Repository\junit\junit\4.12\junit-4.12.jar;C:\APP\apache-maven-3.6.0\Repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\APP\apache-maven-3.6.0\Repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\APP\apache-maven-3.6.0\Repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\APP\apache-maven-3.6.0\Repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\APP\apache-maven-3.6.0\Repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\APP\apache-maven-3.6.0\Repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\APP\apache-maven-3.6.0\Repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mac/IdeaProjects/TDD/Agile-Java/target/test-classes:/Users/mac/IdeaProjects/TDD/Agile-Java/target/classes:/Users/mac/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/mac/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mac/.m2/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar:/Users/mac/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/Users/mac/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/mac/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/mac/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/Users/mac/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value=""/>
     <property name="java.vm.specification.version" value="1.8"/>
-    <property name="os.name" value="Windows 10"/>
+    <property name="os.name" value="Mac OS X"/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\陈枫\AppData\Local\Temp\surefire7488663152462236581\surefirebooter4181383878388526527.jar C:\Users\陈枫\AppData\Local\Temp\surefire7488663152462236581 2019-11-26T09-37-06_951-jvmRun1 surefire667294801499471721tmp surefire_08761438045453532419tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\陈枫\IdeaProjects\TDD\AgileJava\target\test-classes;C:\Users\陈枫\IdeaProjects\TDD\AgileJava\target\classes;C:\APP\apache-maven-3.6.0\Repository\junit\junit\4.12\junit-4.12.jar;C:\APP\apache-maven-3.6.0\Repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\APP\apache-maven-3.6.0\Repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\APP\apache-maven-3.6.0\Repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\APP\apache-maven-3.6.0\Repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\APP\apache-maven-3.6.0\Repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\APP\apache-maven-3.6.0\Repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\APP\apache-maven-3.6.0\Repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/mac/IdeaProjects/TDD/Agile-Java/target/surefire/surefirebooter3189303691468184033.jar /Users/mac/IdeaProjects/TDD/Agile-Java/target/surefire 2019-11-30T14-10-32_203-jvmRun1 surefire5426163355982291570tmp surefire_04940203135133775163tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/mac/IdeaProjects/TDD/Agile-Java/target/test-classes:/Users/mac/IdeaProjects/TDD/Agile-Java/target/classes:/Users/mac/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/mac/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mac/.m2/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar:/Users/mac/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/Users/mac/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/mac/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/mac/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/Users/mac/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\陈枫"/>
+    <property name="user.home" value="/Users/mac"/>
     <property name="user.language" value="zh"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
-    <property name="basedir" value="C:\Users\陈枫\IdeaProjects\TDD\AgileJava"/>
-    <property name="file.separator" value="\"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/mac/IdeaProjects/TDD/Agile-Java"/>
+    <property name="file.separator" value="/"/>
     <property name="line.separator" value="&#10;"/>
+    <property name="idea.version2019.2.3" value="true"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\陈枫\AppData\Local\Temp\surefire7488663152462236581\surefirebooter4181383878388526527.jar"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
-    <property name="user.script" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/mac/IdeaProjects/TDD/Agile-Java/target/surefire/surefirebooter3189303691468184033.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_181-b13"/>
-    <property name="user.name" value="陈枫"/>
-    <property name="path.separator" value=";"/>
-    <property name="os.version" value="10.0"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="mac"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\APP\apache-maven-3.6.0\Repository"/>
+    <property name="localRepository" value="/Users/mac/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\陈枫\AppData\Local\Temp\"/>
-    <property name="java.version" value="1.8.0_181"/>
-    <property name="user.dir" value="C:\Users\陈枫\IdeaProjects\TDD\AgileJava"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/var/folders/kp/5y46pgs14t972v6nfwlz9ltr0000gn/T/"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="/Users/mac/IdeaProjects/TDD/Agile-Java"/>
+    <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\APP\apache-maven-3.6.0\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\APP\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\APP\OpenSSL-Win64\bin;C:\APP\gradle-5.6.2\bin;&quot;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin&quot;;C:\APP\Python\Python37-32\Scripts\;C:\APP\Python\Python37-32\;C:\Users\陈枫\AppData\Local\Microsoft\WindowsApps;;C:\Users\陈枫\AppData\Roaming\npm;C:\Users\陈枫\AppData\Local\Microsoft\WindowsApps;C:\APP\Fiddler;C:\APP\IntelliJ IDEA 2019.2.1\bin;;C:\APP\PyCharm 2019.2.4\bin;;."/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.181-b13"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="/Users/mac/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="(com.chenfeng.studentinfo.StudentTest)" classname="com.chenfeng.studentinfo.StudentTest" time="0.025"/>
-  <testcase name="(com.chenfeng.studentinfo.CourseSessionTest)" classname="com.chenfeng.studentinfo.CourseSessionTest" time="0.001"/>
+  <testcase name="(com.chenfeng.studentinfo.StudentTest)" classname="com.chenfeng.studentinfo.StudentTest" time="0.006"/>
   <testcase name="(com.chenfeng.studentinfo.CourseSessionTest)" classname="com.chenfeng.studentinfo.CourseSessionTest" time="0"/>
   <testcase name="(com.chenfeng.studentinfo.CourseSessionTest)" classname="com.chenfeng.studentinfo.CourseSessionTest" time="0"/>
-  <testcase name="(com.chenfeng.studentinfo.RosterReporterTest)" classname="com.chenfeng.studentinfo.RosterReporterTest" time="0.002"/>
-  <testcase name="(com.chenfeng.studentinfo.DateUtilTest)" classname="com.chenfeng.studentinfo.DateUtilTest" time="0.001"/>
+  <testcase name="(com.chenfeng.studentinfo.CourseSessionTest)" classname="com.chenfeng.studentinfo.CourseSessionTest" time="0"/>
+  <testcase name="(com.chenfeng.studentinfo.RosterReporterTest)" classname="com.chenfeng.studentinfo.RosterReporterTest" time="0"/>
+  <testcase name="(com.chenfeng.studentinfo.DateUtilTest)" classname="com.chenfeng.studentinfo.DateUtilTest" time="0"/>
 </testsuite>

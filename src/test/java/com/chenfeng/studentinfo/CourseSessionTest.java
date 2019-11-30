@@ -17,7 +17,7 @@ public class CourseSessionTest {
     @BeforeClass
     public void setUp() {
         startDate = DateUtil.createDate(2003, 1, 6);
-        session = new CourseSession("ENGL", "101", startDate);
+        session = createCourseSession();
     }
 
     public void testCreate() {
@@ -43,5 +43,17 @@ public class CourseSessionTest {
     public void testCourseDates() {
         Date sixteenWeeksOut = DateUtil.createDate(2003, 4, 25);
         Assert.assertEquals(sixteenWeeksOut, session.getEndDate());
+    }
+
+    public void testCount() {
+        CourseSession.resetCount();
+        createCourseSession();
+        Assert.assertEquals(CourseSession.getCount(), 1);
+        createCourseSession();
+        Assert.assertEquals(CourseSession.getCount(), 2);
+    }
+
+    private CourseSession createCourseSession() {
+        return CourseSession.create("ENGL", "101", startDate);
     }
 }
