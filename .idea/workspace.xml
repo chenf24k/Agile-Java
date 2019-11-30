@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c616eb91-87ba-479c-b66a-e6652e03f75a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/CourseSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/CourseSession.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/CourseSessionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/CourseSessionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/CourseSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/CourseSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/CourseSessionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/CourseSessionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/StudentTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,29 +69,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/陈枫/IdeaProjects/TDD/AgileJava/testng.xml">
+  <component name="RunManager" selected="TestNG.StudentTest.testInState">
     <configuration name="C:/Users/陈枫/IdeaProjects/TDD/AgileJava/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AgileJava" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseSessionTest.testCount" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AgileJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chenfeng.studentinfo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.chenfeng.studentinfo" />
-      <option name="MAIN_CLASS_NAME" value="com.chenfeng.studentinfo.CourseSessionTest" />
-      <option name="METHOD_NAME" value="testCount" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -159,13 +134,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentTest.testInState" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AgileJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenfeng.studentinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chenfeng.studentinfo" />
+      <option name="MAIN_CLASS_NAME" value="com.chenfeng.studentinfo.StudentTest" />
+      <option name="METHOD_NAME" value="testInState" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StudentTest.testInState" />
         <item itemvalue="TestNG.C:/Users/陈枫/IdeaProjects/TDD/AgileJava/testng.xml" />
         <item itemvalue="TestNG.StudentTest.testFullTime" />
         <item itemvalue="TestNG.StudentTest.testBadStatic (1)" />
         <item itemvalue="TestNG.StudentTest.testBadStatic" />
-        <item itemvalue="TestNG.CourseSessionTest.testCount" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +177,7 @@
       <workItem from="1574657532574" duration="6399000" />
       <workItem from="1574730855431" duration="2691000" />
       <workItem from="1574818057749" duration="219000" />
-      <workItem from="1575093500454" duration="6581000" />
+      <workItem from="1575093500454" duration="7350000" />
     </task>
     <task id="LOCAL-00001" summary="重构学生输出信息的方法">
       <created>1574732385050</created>
