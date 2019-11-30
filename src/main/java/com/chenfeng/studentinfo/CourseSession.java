@@ -8,6 +8,7 @@ public class CourseSession {
     private List<Student> students = new ArrayList<Student>();
     private Date startDate;
     private static int count;
+    private int numberOfCredits;
 
     /**
      * 返回当前课程学生的数量
@@ -24,6 +25,7 @@ public class CourseSession {
      * @param student 传入学生对象
      */
     public void enroll(Student student) {
+        student.addCredits(numberOfCredits);
         students.add(student);
     }
 
@@ -101,4 +103,8 @@ public class CourseSession {
         return number;
     }
 
+
+    public void setNumberOfCredits(int numberOfCredits) {
+        this.numberOfCredits = numberOfCredits;
+    }
 }

@@ -13,6 +13,7 @@ import java.util.GregorianCalendar;
 public class CourseSessionTest {
     private CourseSession session;
     private Date startDate;
+    private static final int CREDTIS = 3;
 
     @BeforeClass
     public void setUp() {
@@ -30,12 +31,14 @@ public class CourseSessionTest {
     public void testEnrollStudents() {
         Student student1 = new Student("Cain DiVoe");
         session.enroll(student1);
-        Assert.assertEquals(1, session.getNumberOfStudents());
+        Assert.assertEquals(student1.getCredits(), CREDTIS);
+        Assert.assertEquals(session.getNumberOfStudents(), 1);
         Assert.assertEquals(student1, session.get(0));
 
         Student student2 = new Student("Coralee DeVaughn");
         session.enroll(student2);
-        Assert.assertEquals(2, session.getNumberOfStudents());
+        Assert.assertEquals(student2.getCredits(), CREDTIS);
+        Assert.assertEquals(session.getNumberOfStudents(), 2);
         Assert.assertEquals(student1, session.get(0));
         Assert.assertEquals(student2, session.get(1));
     }
@@ -54,6 +57,8 @@ public class CourseSessionTest {
     }
 
     private CourseSession createCourseSession() {
-        return CourseSession.create("ENGL", "101", startDate);
+        CourseSession session = CourseSession.create("ENGL", "101", startDate);
+        session.setNumberOfCredits(CourseSessionTest.CREDTIS);
+        return session;
     }
 }
