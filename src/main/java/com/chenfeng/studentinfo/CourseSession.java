@@ -2,7 +2,7 @@ package com.chenfeng.studentinfo;
 
 import java.util.*;
 
-public class CourseSession {
+public class CourseSession implements Comparable<CourseSession> {
     private String department;
     private String number;
     private List<Student> students = new ArrayList<Student>();
@@ -78,8 +78,8 @@ public class CourseSession {
     /**
      * 工厂方法，用于生产CourseSession对象
      *
-     * @param department 部门
-     * @param number     数量
+     * @param department 学科
+     * @param number     课程编号
      * @param startDate  开始时间
      * @return CourseSession对象
      */
@@ -106,5 +106,21 @@ public class CourseSession {
 
     public void setNumberOfCredits(int numberOfCredits) {
         this.numberOfCredits = numberOfCredits;
+    }
+
+    /**
+     * @param that
+     * @return 0: 两个对象相同，
+     * 负数: 参数在后
+     * 正数: 参数在前
+     * <p>
+     * 先比较学科名，相同时比较编号ß
+     */
+    @Override
+    public int compareTo(CourseSession that) {
+        int compare = this.getDepartment().compareTo(that.getDepartment());
+        if (compare == 0)
+            compare = this.getNumber().compareTo(that.getNumber());
+        return compare;
     }
 }
