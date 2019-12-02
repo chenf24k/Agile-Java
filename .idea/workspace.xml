@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c616eb91-87ba-479c-b66a-e6652e03f75a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/CourseReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/CourseReportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/SortStringsInPlace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/CourseSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/CourseSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/CourseSessionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/CourseSessionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/CourseSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/CourseSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/CourseSessionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/CourseSessionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chenfeng/studentinfo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chenfeng/studentinfo/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chenfeng/studentinfo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/chenfeng/studentinfo/StudentTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +177,7 @@
       <workItem from="1574657532574" duration="6399000" />
       <workItem from="1574730855431" duration="2691000" />
       <workItem from="1574818057749" duration="219000" />
-      <workItem from="1575093500454" duration="14516000" />
+      <workItem from="1575093500454" duration="19119000" />
     </task>
     <task id="LOCAL-00001" summary="重构学生输出信息的方法">
       <created>1574732385050</created>
